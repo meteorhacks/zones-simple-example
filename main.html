@@ -4,4 +4,11 @@
 
 <template name="main">
   <button id="get_average" style="font-size: 30px;">Get Average</button>
+  {{#if canShowGoo}}
+    {{> goo}}
+  {{/if}}
+</template>
+
+<template name='goo'>
+
 </template>
